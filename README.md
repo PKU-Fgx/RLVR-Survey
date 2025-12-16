@@ -33,7 +33,7 @@
 
 <h2 id="motivation">🌟 Motivation</h2>
 
-RLVR is a rapidly evolving paradigm for aligning LLMs through **external reward verification**, **self-consistency**, and **bootstrap learning**, enabling models to improve reasoning capabilities without relying heavily on human supervision.
+RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自举学习来对齐大语言模型（LLMs），使模型能够在不过度依赖人工监督的情况下提升推理能力。
 
 ---
 
