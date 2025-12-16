@@ -10,8 +10,6 @@
 >  一份精选的研究论文、工具、数据集和框架列表，用于大语言模型（LLMs）中具有**可验证奖励的强化学习**（Reinforcement Learning with Verifiable Rewards, RLVR）。
 > 受基础模型在对齐、推理与自我改进三者交叉领域的启发。 
 
-Contributions welcome! See [contributing guidelines](#contributing) below.
-
 <details>
   <summary>🗂️ Table of Contents</summary>
   <ol>
