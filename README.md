@@ -1,11 +1,10 @@
 # Awesome LLM-RLVR [🔥📜]
-[![Auto Update Papers](https://github.com/smiles724/Awesome-LLM-RLVR/actions/workflows/arxiv-update.yml/badge.svg)](https://github.com/smiles724/Awesome-LLM-RLVR/actions/workflows/arxiv-update.yml)
 
 <div align="center">
-  <a href="https://github.com/smiles724/Awesome-LLM-RLVR/stargazers"><img src="https://img.shields.io/github/stars/smiles724/Awesome-LLM-RLVR?style=for-the-badge" alt="Stargazers"></a>
-  <a href="https://github.com/smiles724/Awesome-LLM-RLVR/network/members"><img src="https://img.shields.io/github/forks/smiles724/Awesome-LLM-RLVR?style=for-the-badge" alt="Forks"></a>
-  <a href="https://github.com/smiles724/Awesome-LLM-RLVR/graphs/contributors"><img src="https://img.shields.io/github/contributors/smiles724/Awesome-LLM-RLVR?style=for-the-badge" alt="Contributors"></a>
-  <a href="https://github.com/smiles724/Awesome-LLM-RLVR/blob/main/LICENSE"><img src="https://img.shields.io/github/license/smiles724/Awesome-LLM-RLVR?style=for-the-badge" alt="MIT License"></a>
+  <a href="https://github.com/PKU-Fgx/RLVR-Survey/stargazers"><img src="https://img.shields.io/github/stars/PKU-Fgx/RLVR-Survey?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/PKU-Fgx/RLVR-Survey/network/members"><img src="https://img.shields.io/github/forks/sPKU-Fgx/RLVR-Survey?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/PKU-Fgx/RLVR-Survey/graphs/contributors"><img src="https://img.shields.io/github/contributors/PKU-Fgx/RLVR-Survey?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/PKU-Fgx/RLVR-Survey/blob/main/LICENSE"><img src="https://img.shields.io/github/license/PKU-Fgx/RLVR-Survey?style=for-the-badge" alt="MIT License"></a>
 </div>
 
 >  一份精选的研究论文、工具、数据集和框架列表，用于大语言模型（LLMs）中具有**可验证奖励的强化学习**（Reinforcement Learning with Verifiable Rewards, RLVR）。
