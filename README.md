@@ -78,8 +78,9 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
      EAD 采用了“先探索、后利用（explore-at-the-beginning, exploit-at-the-end）”的动态温度策略——从较高温度逐步退火到较低温度。  
 
 8. **KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning.** <2025.06>  
-    *Hongling Xu, Qi Zhu, Heyuan Deng, Jinpeng Li, Lu Hou.*, **arXiv**  
-   [[Paper]](https://arxiv.org/pdf/2506.02208v1)
+    [[Paper]](https://arxiv.org/pdf/2506.02208v1)    *哈工大*
+   >本文提出了 KDRL，一种 统一的后训练框架，通过教师监督（KD）和模型自身探索（RL）共同优化推理模型。具体而言，KDRL 使用策略梯度优化，同时最小化学生模型与教师模型分布的逆向 Kullback–Leibler 散度（RKL），并最大化基于规则的预期奖励。论文构建了一个将 GRPO（Group Relative Policy Optimization） 与 KD 结合的统一目标，并系统性地研究了不同 KL 近似方法、KL 权重系数以及基于奖励指导的 KD 策略对训练动态和性能的影响。
+   
 9. **Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening.** <2025.06>  
     *Andre He, Daniel Fried, Sean Welleck.* **arXiv**  
    [[Paper]](https://www.arxiv.org/abs/2506.02355)
