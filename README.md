@@ -77,13 +77,14 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
    > 在本文中，作者提出了一种更简单且更有效的策略——探索性退火解码（Exploratory Annealed Decoding, EAD）。该方法基于一个核心洞察：**在序列生成过程中，早期 token 对整个序列的语义方向最关键，因此探索性在早期更有价值。**    
      EAD 采用了“先探索、后利用（explore-at-the-beginning, exploit-at-the-end）”的动态温度策略——从较高温度逐步退火到较低温度。  
 
-8. 👉【改进 RLVR 范式】**KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning.** <2025.06>  
+8. 👉【改进 GRPO】**KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning.** <2025.06>  
     [[Paper]](https://arxiv.org/pdf/2506.02208v1)    *哈工大*
    >本文提出了 KDRL，一种 统一的后训练框架，通过教师监督（KD）和模型自身探索（RL）共同优化推理模型。具体而言，KDRL 使用策略梯度优化，同时最小化学生模型与教师模型分布的逆向 Kullback–Leibler 散度（RKL），并最大化基于规则的预期奖励。论文构建了一个将 GRPO（Group Relative Policy Optimization） 与 KD 结合的统一目标，并系统性地研究了不同 KL 近似方法、KL 权重系数以及基于奖励指导的 KD 策略对训练动态和性能的影响。
    
-9. **Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening.** <2025.06>  
-    *Andre He, Daniel Fried, Sean Welleck.* **arXiv**  
-   [[Paper]](https://www.arxiv.org/abs/2506.02355)
+9. 👉【改进 GRPO】**Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening.** <2025.06>  
+    [[Paper]](https://www.arxiv.org/abs/2506.02355)    *Carnegie Mellon University.*  
+   > 为了解决 GRPO 的排序偏差，我们提出了 unlikeliness reward（不太可能性奖励），一种显式提高低概率正确结果权重的方法。我们展示了不太可能性奖励可以缓解排序偏差，并在合成和真实的定理证明设置中，在多个 N 值下提高 pass@N 表现。
+   
 10. **Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback** <2025.06>  
     *Xiaoying Zhang, Hao Sun, Yipeng Zhang, Kaituo Feng, Chaochao Lu, Chao Yang, Helen Meng* **arXiv**    
    [[Paper]](https://www.arxiv.org/abs/2506.03106) [[Code]](https://github.com/zhangxy-2019/critique-GRPO)
