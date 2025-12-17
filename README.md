@@ -51,7 +51,7 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
     *Penghui Qi, Zichen Liu, Tianyu Pang, Chao Du, Wee Sun Lee, Min Lin.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2505.13438)
    
-2.**Language Models Can Learn from Verbal Feedback Without Scalar Rewards.**   <2025.06> 👉【改进 RLVR 范式】     
+2. **Language Models Can Learn from Verbal Feedback Without Scalar Rewards.**   <2025.09> 👉【改进 RLVR 范式】     
     *Renjie Luo, Zichen Liu, Xiangyan Liu, Chao Du, Min Lin, Wenhu Chen, Wei Lu, Tianyu Pang.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2509.22638)
     
