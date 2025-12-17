@@ -47,7 +47,7 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
 
 <h4>2025</h4>
 
-1. **Optimizing Anytime Reasoning via Budget Relative Policy Optimization.**   <2025.06>   
+1. **Optimizing Anytime Reasoning via Budget Relative Policy Optimization.**   <2025.06> -> Domain: 高效推理
     *Penghui Qi, Zichen Liu, Tianyu Pang, Chao Du, Wee Sun Lee, Min Lin.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2505.13438)
 2. **Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06>    
