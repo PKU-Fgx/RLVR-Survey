@@ -72,7 +72,7 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
    > 尽管带有可验证奖励的强化学习（Reinforcement Learning with Verifiable Rewards, RLVR）已成为发展大型语言模型高级推理能力的重要组成部分，但现有研究表明，在经过数千次优化步骤后训练会出现性能停滞（即“平台期”），即使增加计算资源也难以获得显著性能提升。造成这一限制的原因是当前 RLVR 训练中探索非常稀疏 —— 模型依赖有限的 rollout（执行轨迹）经常错过关键的推理路径，无法系统覆盖解空间。   
    > 我们提出了 DeepSearch，一个将**蒙特卡洛树搜索（Monte Carlo Tree Search, MCTS**直接集成进 RLVR 训练的框架。与现有方法仅在推理（inference）过程中使用树搜索不同，DeepSearch 把结构化搜索嵌入训练循环，实现了针对推理步骤的系统性探索和细粒度的奖励（credit）分配。   
 
-7. 👉【改进 RLVR 范式】**Let it Calm: Exploratory Annealed Decoding for Verifiable Reinforcement Learning.** <2025.06>   
+7. 👉【改进 RLVR 范式】**Let it Calm: Exploratory Annealed Decoding for Verifiable Reinforcement Learning.** <2025.10>   
    [[Paper]](https://www.arxiv.org/abs/2510.05251)    *University of Chicago、Meta*  
    > 在本文中，作者提出了一种更简单且更有效的策略——探索性退火解码（Exploratory Annealed Decoding, EAD）。该方法基于一个核心洞察：**在序列生成过程中，早期 token 对整个序列的语义方向最关键，因此探索性在早期更有价值。**    
      EAD 采用了“先探索、后利用（explore-at-the-beginning, exploit-at-the-end）”的动态温度策略——从较高温度逐步退火到较低温度。  
@@ -85,7 +85,7 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
     [[Paper]](https://www.arxiv.org/abs/2506.02355)    *Carnegie Mellon University.*  
    > 为了解决 GRPO 的排序偏差，我们提出了 unlikeliness reward（不太可能性奖励），一种显式提高低概率正确结果权重的方法。我们展示了不太可能性奖励可以缓解排序偏差，并在合成和真实的定理证明设置中，在多个 N 值下提高 pass@N 表现。
    
-10. 👉【RLVR 是否能拓展能力边界】**The Invisible Leash: Why RLVR May or May Not Escape Its Origin.** <2025.09>  
+10. 👉【RLVR 是否能拓展能力边界】**The Invisible Leash: Why RLVR May or May Not Escape Its Origin.** <2025.07>  
     [[Paper]](https://www.arxiv.org/abs/2507.14843)    *Stanford University、NVIDIA*
     > 本研究通过理论和大规模实证研究揭示了 RLVR 可能的局限性。我们发现，在当前训练条件下，RLVR 的优化往往像一种 受基座模型支持集限制的保守性重加权机制，这可能限制完全原创解的发现，并使优化受限于基座模型的初始分布。我们还识别出一个 熵与奖励之间的权衡：虽然现有的 RLVR 方案可靠地提升了精度，但它也可能逐步缩小探索范围，从而遗漏那些正确但概率较低的解。
 
