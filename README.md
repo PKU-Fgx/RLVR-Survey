@@ -305,21 +305,3 @@ Scaling Reinforcement Learning: Environments, Reward Hacking, Agents, Scaling Da
 
 Have a new paper, tool, or idea? Please open a [Pull Request](https://github.com/yourname/awesome-llm-rlvr/pulls) or submit an [Issue](https://github.com/yourname/awesome-llm-rlvr/issues).  
 Let’s make LLMs reason better, faster, and more verifiably.
-
-### Contributors
-
-<a href="https://github.com/smiles724/Awesome-LLM-RLVR/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=smiles724/Awesome-LLM-RLVR" />
-</a>
-
-
----
-
-<h2 id="star"> ⭐ Star History</h2>
-
-[![Star History Chart](https://api.star-history.com/svg?repos=smiles724/Awesome-LLM-RLVR&type=Date)](https://www.star-history.com/#smiles724/Awesome-LLM-RLVR&Date)
----
-
-<h2 id="license">🧾 License</h2>
-
-MIT License © 2025 <a href="mailto:fangwu97@stanford.edu">Fang Wu</a> and Contributors
