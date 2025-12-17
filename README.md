@@ -48,35 +48,36 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
 <h4>2025</h4>
 
 1. 👉【高效推理】**Optimizing Anytime Reasoning via Budget Relative Policy Optimization.**   <2025.06>      
-    *Penghui Qi, Zichen Liu, Tianyu Pang, Chao Du, Wee Sun Lee, Min Lin.*    **arXiv**   
+    *Sea AI、新加坡国立*   
     [[Paper]](https://arxiv.org/abs/2505.13438)
     > 在这项工作中，我们提出了一个新框架 AnytimeReasoner，用于优化“随时推理”（anytime reasoning）性能，目标是在不同 token 预算约束下提高 token 效率和推理灵活性。为此，我们从一个先验分布中采样 token 预算，并将完整的思维过程截断到这些预算长度，迫使模型为每段截断的思维生成可验证的最佳答案，以此引入可验证的密集奖励，从而在强化学习优化中实现更有效的信用分配。
    
 2. 👉【改进 RLVR 范式】**Language Models Can Learn from Verbal Feedback Without Scalar Rewards.**   <2025.09>      
-    *Renjie Luo, Zichen Liu, Xiangyan Liu, Chao Du, Min Lin, Wenhu Chen, Wei Lu, Tianyu Pang.*    **arXiv**   
+    *Sea AI*   
     [[Paper]](https://arxiv.org/abs/2509.22638)
     > 我们提出将口头反馈视为一种条件信号，而不是压缩为单一的数值奖励。
 
 3. 👉【高效推理】**Entropy After $\textlangle$ `/Think` $\textrangle$ for reasoning model early exiting.**   <2025.09>      
-    *Xi Wang, James McInerney, Lequn Wang, Nathan Kallus.*    **arXiv**   
+    *Netflix Research*   
     [[Paper]](https://arxiv.org/abs/2509.26522)
     > 为检测并防止过度思考，我们提出了一种简单且廉价的信号 —— “`</Think>` 之后的熵（Entropy After `</Think>`, EAT）” —— 用于监控并决定是否提前退出推理。
     
 4. 👉【RLVR 原理】**Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06>      
-    *Shenghua He, Tian Xia, Xuan Zhou, Hui Wei.*  **arXiv**   
+    *Amazon*   
     [[Paper]](https://www.arxiv.org/abs/2506.02553)
    > 在本文中，我们提出了统一的理论视角，我们引入了**轨迹策略梯度定理（Trajectory Policy Gradient Theorem）**，表明无论零奖励假设是否成立，在 REINFORCE 和 Actor-Critic 一类算法中，只用 整条回应的最终奖励（response-level reward） 就可以对真实、未知的 token-级奖励进行无偏估计。
 
 5. 👉【数据高效】**Towards High Data Efficiency in Reinforcement Learning with Verifiable Reward.**  <2025.09>      
-    *人大、阿里蚂蚁*  **arXiv**   
+    *人大、阿里蚂蚁*   
     [[Paper]](https://www.arxiv.org/abs/2509.01321)
    > 近期的大型推理模型研究利用带可验证奖励的强化学习（RLVR）来提升模型的推理能力。然而，这类方法要做到大规模训练通常需要大量的 rollout 计算以及巨大的数据集，从而导致训练成本高、数据效率低。为了解决这个问题，本论文提出了 DEPO（Data-Efficient Policy Optimization） —— 一种数据高效的策略优化管道，它结合了离线和在线数据选择的优化策略。
 
 6. 👉【改进 RLVR 范式】**Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts.** <2025.06>   
-   *Haizhong Zheng, Yang Zhou, Brian R. Bartoldson, Bhavya Kailkhura, Fan Lai, Jiawei Zhao, Beidi Chen.* **arXiv**  
+   *Carnegie Mellon、Meta* **arXiv**  
    [[Paper]](https://www.arxiv.org/abs/2506.02177) [[Code]](https://github.com/Infini-AI-Lab/GRESO/)
    > 尽管带有可验证奖励的强化学习（Reinforcement Learning with Verifiable Rewards, RLVR）已成为发展大型语言模型高级推理能力的重要组成部分，但现有研究表明，在经过数千次优化步骤后训练会出现性能停滞（即“平台期”），即使增加计算资源也难以获得显著性能提升。造成这一限制的原因是当前 RLVR 训练中探索非常稀疏 —— 模型依赖有限的 rollout（执行轨迹）经常错过关键的推理路径，无法系统覆盖解空间。   
-   > 我们提出了 DeepSearch，一个将 蒙特卡洛树搜索（Monte Carlo Tree Search, MCTS） 直接集成进 RLVR 训练的框架。与现有方法仅在推理（inference）过程中使用树搜索不同，DeepSearch 把结构化搜索嵌入训练循环，实现了针对推理步骤的系统性探索和细粒度的奖励（credit）分配。
+   > 我们提出了 DeepSearch，一个将 蒙特卡洛树搜索（Monte Carlo Tree Search, MCTS） 直接集成进 RLVR 训练的框架。与现有方法仅在推理（inference）过程中使用树搜索不同，DeepSearch 把结构化搜索嵌入训练循环，实现了针对推理步骤的系统性探索和细粒度的奖励（credit）分配。   
+
 8. **KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning.** <2025.06>  
     *Hongling Xu, Qi Zhu, Heyuan Deng, Jinpeng Li, Lu Hou.*, **arXiv**  
    [[Paper]](https://arxiv.org/pdf/2506.02208v1)
