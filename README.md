@@ -60,7 +60,7 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
 3. 👉【高效推理】**Entropy After $\textlangle$ `/Think` $\textrangle$ for reasoning model early exiting.**   <2025.09>      
     *Xi Wang, James McInerney, Lequn Wang, Nathan Kallus.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2509.26522)
-    > 为检测并防止过度思考，我们提出了一种简单且廉价的信号 —— “</Think> 之后的熵（Entropy After </Think>, EAT）” —— 用于监控并决定是否提前退出推理。
+    > 为检测并防止过度思考，我们提出了一种简单且廉价的信号 —— “`</Think>` 之后的熵（Entropy After `</Think>`, EAT）” —— 用于监控并决定是否提前退出推理。
     
 4. 👉【RLVR 原理】**Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06>      
     *Shenghua He, Tian Xia, Xuan Zhou, Hui Wei.*  **arXiv**   
