@@ -62,74 +62,75 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
     [[Paper]](https://arxiv.org/abs/2509.26522)
     > 为检测并防止过度思考，我们提出了一种简单且廉价的信号 —— “</Think> 之后的熵（Entropy After </Think>, EAT）” —— 用于监控并决定是否提前退出推理。
     
-4. **Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06>    
+4. **Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06> 👉【RLVR 原理】     
     *Shenghua He, Tian Xia, Xuan Zhou, Hui Wei.*  **arXiv**   
     [[Paper]](https://www.arxiv.org/abs/2506.02553)
+   > 在本文中，我们提出了统一的理论视角，我们引入了**轨迹策略梯度定理（Trajectory Policy Gradient Theorem）**，表明无论零奖励假设是否成立，在 REINFORCE 和 Actor-Critic 一类算法中，只用 整条回应的最终奖励（response-level reward） 就可以对真实、未知的 token-级奖励进行无偏估计。
    
-5. **Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts.** <2025.06>   
+6. **Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts.** <2025.06>   
    *Haizhong Zheng, Yang Zhou, Brian R. Bartoldson, Bhavya Kailkhura, Fan Lai, Jiawei Zhao, Beidi Chen.* **arXiv**  
    [[Paper]](https://www.arxiv.org/abs/2506.02177) [[Code]](https://github.com/Infini-AI-Lab/GRESO/)
-6. **KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning.** <2025.06>  
+7. **KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning.** <2025.06>  
     *Hongling Xu, Qi Zhu, Heyuan Deng, Jinpeng Li, Lu Hou.*, **arXiv**  
    [[Paper]](https://arxiv.org/pdf/2506.02208v1)
-7. **Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening.** <2025.06>  
+8. **Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening.** <2025.06>  
     *Andre He, Daniel Fried, Sean Welleck.* **arXiv**  
    [[Paper]](https://www.arxiv.org/abs/2506.02355)
-8. **Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback** <2025.06>  
+9. **Critique-GRPO: Advancing LLM Reasoning with Natural Language and Numerical Feedback** <2025.06>  
     *Xiaoying Zhang, Hao Sun, Yipeng Zhang, Kaituo Feng, Chaochao Lu, Chao Yang, Helen Meng* **arXiv**    
    [[Paper]](https://www.arxiv.org/abs/2506.03106) [[Code]](https://github.com/zhangxy-2019/critique-GRPO)
-9. **Beyond Markovian: Reflective Exploration via Bayes-Adaptive RL for LLM Reasoning.** <2025.05>  
+10. **Beyond Markovian: Reflective Exploration via Bayes-Adaptive RL for LLM Reasoning.** <2025.05>  
    *Shenao Zhang, Yaqing Wang, Yinxiao Liu, Tianqi Liu, Peter Grabowski, Eugene Ie, Zhaoran Wang, Yunxuan Li.* **arXiv**  
     [[Paper]](https://arxiv.org/abs/2505.20561)
-10. **S-GRPO: Early Exit via Reinforcement Learning in Reasoning Models.** <2025.05>  
+11. **S-GRPO: Early Exit via Reinforcement Learning in Reasoning Models.** <2025.05>  
     *Muzhi Dai, Chenxu Yang, Qingyi Si.* **arXiv**  
    [[Paper]](https://arxiv.org/abs/2505.07686)
-11. **Temporal Sampling for Forgotten Reasoning in LLMs** <2025.05>   
+12. **Temporal Sampling for Forgotten Reasoning in LLMs** <2025.05>   
    *Yuetai Li, Zhangchen Xu, Fengqing Jiang, Bhaskar Ramasubramanian, Luyao Niu, Bill Yuchen Lin, Xiang Yue, Radha Poovendran.* **arXiv**    
    [[Paper]](https://arxiv.org/abs/2505.20196) [[Code]](https://github.com/uw-nsl/Temporal_Forgetting)
-12. **DAPO: An Open-Source LLM Reinforcement Learning System at Scale.**  <2025.05>   
+13. **DAPO: An Open-Source LLM Reinforcement Learning System at Scale.**  <2025.05>   
    *Yu et al.* **arXiv**    
    [[Paper]](https://arxiv.org/abs/2503.14476) [[Code]](https://github.com/BytedTsinghua-SIA/DAPO)
-13. **RM-R1: Reward Modeling as Reasoning**  <2025.05>  
+14. **RM-R1: Reward Modeling as Reasoning**  <2025.05>  
     *Xiusi Chen, Gaotang Li, Ziqi Wang, Bowen Jin, Cheng Qian, Yu Wang, Hongru Wang, Yu Zhang, Denghui Zhang, Tong Zhang, Hanghang Tong, Heng Ji.* **arXiv**  
     [[Paper]](https://arxiv.org/abs/2505.02387) [[Code]](https://github.com/RM-R1-UIUC/RM-R1)
-14. **GRPO-LEAD: A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models.**  <2025.04>   
+15. **GRPO-LEAD: A Difficulty-Aware Reinforcement Learning Approach for Concise Mathematical Reasoning in Language Models.**  <2025.04>   
     *Jixiao Zhang, Chunsheng Zuo.* **arXiv**   
     [[Paper]](https://arxiv.org/abs/2504.09696)
-15. **VAPO: Efficient and Reliable Reinforcement Learning for Advanced Reasoning Tasks.** <2025.04>
+16. **VAPO: Efficient and Reliable Reinforcement Learning for Advanced Reasoning Tasks.** <2025.04>
     *Yu Yue, Yufeng Yuan, Qiying Yu, Xiaochen Zuo, Ruofei Zhu, Wenyuan Xu, Jiaze Chen, Chengyi Wang, TianTian Fan, Zhengyin Du, Xiangpeng Wei, Xiangyu Yu, Gaohong Liu, Juncai Liu, Lingjun Liu, Haibin Lin, Zhiqi Lin, Bole Ma, Chi Zhang, Mofan Zhang, Wang Zhang, Hang Zhu, Ru Zhang, Xin Liu, Mingxuan Wang, Yonghui Wu, Lin Yan.* **arXiv**
     [Paper]()
-16. **Online Difficulty Filtering for Reasoning Oriented Reinforcement Learning.**  <2025.04>   
+17. **Online Difficulty Filtering for Reasoning Oriented Reinforcement Learning.**  <2025.04>   
     *Sanghwan Bae, Jiwoo Hong, Min Young Lee, Hanbyul Kim, JeongYeon Nam, Donghyun Kwak.*  **arXiv**   
     [[Paper]](https://arxiv.org/abs/2504.03380)
-17. **SRPO: A Cross-Domain Implementation of Large-Scale Reinforcement Learning on LLM.** <2025.04>   
+18. **SRPO: A Cross-Domain Implementation of Large-Scale Reinforcement Learning on LLM.** <2025.04>   
     *Xiaojiang Zhang, Jinghui Wang, Zifei Cheng, Wenhao Zhuang, Zheng Lin, Minglei Zhang, Shaojie Wang, Yinghan Cui, Chao Wang, Junyi Peng, Shimiao Jiang, Shiqi Kuang, Shouyu Yin, Chaohang Wen, Haotian Zhang, Bin Chen, Bing Yu.*  **arXiv**   
     [[Paper]](https://arxiv.org/abs/2504.14286)
-18. **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.**  <2025.01>  
+19. **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.**  <2025.01>  
     *DeepSeek-AI.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2501.12948)
-19. **ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models.**  <2025.05>  
+20. **ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models.**  <2025.05>  
     *Mingjie Liu, Shizhe Diao, Ximing Lu, Jian Hu, Xin Dong, Yejin Choi, Jan Kautz, Yi Dong.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2505.24864)
-20. **GHPO: Adaptive Guidance for Stable and Efficient LLM Reinforcement Learning.**  <2025.07>  
+21. **GHPO: Adaptive Guidance for Stable and Efficient LLM Reinforcement Learning.**  <2025.07>  
     *Ziru Liu, Cheng Gong, Xinyu Fu, Yaofang Liu, Ran Chen, Shoubo Hu, Suiyun Zhang, Rui Liu, Qingfu Zhang, Dandan        Tu.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2507.10628)
-21. **GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning.**  <2025.04>  
+22. **GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning.**  <2025.04>  
     *Xiangxiang Chu, Hailang Huang, Xiao Zhang, Fei Wei, Yong Wang.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2504.02546)
-22. **SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data.**  <2025.05>  
+23. **SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data.**  <2025.05>  
     *Wenkai Fang, Shunyu Liu, Yang Zhou, Kongcheng Zhang, Tongya Zheng, Kaixuan Chen, Mingli Song, Dacheng Tao.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2505.20347)
-23. **SPEED-RL: Faster Training of Reasoning Models via Online Curriculum Learning.**  <2025.06>  
+24. **SPEED-RL: Faster Training of Reasoning Models via Online Curriculum Learning.**  <2025.06>  
     *Ruiqi Zhang, Daman Arora, Song Mei, Andrea Zanette.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2506.09016)
-24. **Bingo: Boosting Efficient Reasoning of LLMs via Dynamic and Significance-based Reinforcement Learning.**  <2025.06>  
+25. **Bingo: Boosting Efficient Reasoning of LLMs via Dynamic and Significance-based Reinforcement Learning.**  <2025.06>  
     *Hanbing Liu, Lang Cao, Yuanyi Ren, Mengyu Zhou, Haoyu Dong, Xiaojun Ma, Shi Han, Dongmei Zhang.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2506.08125)
-25. **Reinforcement Pre-Training.**  <2025.06>  
+26. **Reinforcement Pre-Training.**  <2025.06>  
     *Qingxiu Dong, Li Dong, Yao Tang, Tianzhu Ye, Yutao Sun, Zhifang Sui, Furu Wei.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2506.08007)
-26. **Reinforcement Learning with Verifiable Rewards: GRPO’s Effective Loss, Dynamics, and Success Amplification.**  <2025.03>  
+27. **Reinforcement Learning with Verifiable Rewards: GRPO’s Effective Loss, Dynamics, and Success Amplification.**  <2025.03>  
     *Youssef Mroueh.*  **arXiv**  
     [[Paper]](https://arxiv.org/abs/2503.06639)
 
