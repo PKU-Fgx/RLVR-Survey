@@ -72,6 +72,12 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
    > 尽管带有可验证奖励的强化学习（Reinforcement Learning with Verifiable Rewards, RLVR）已成为发展大型语言模型高级推理能力的重要组成部分，但现有研究表明，在经过数千次优化步骤后训练会出现性能停滞（即“平台期”），即使增加计算资源也难以获得显著性能提升。造成这一限制的原因是当前 RLVR 训练中探索非常稀疏 —— 模型依赖有限的 rollout（执行轨迹）经常错过关键的推理路径，无法系统覆盖解空间。   
    > 我们提出了 DeepSearch，一个将**蒙特卡洛树搜索（Monte Carlo Tree Search, MCTS**直接集成进 RLVR 训练的框架。与现有方法仅在推理（inference）过程中使用树搜索不同，DeepSearch 把结构化搜索嵌入训练循环，实现了针对推理步骤的系统性探索和细粒度的奖励（credit）分配。   
 
+7. 👉【改进 RLVR 范式】**Let it Calm: Exploratory Annealed Decoding for Verifiable Reinforcement Learning.** <2025.06>   
+   [[Paper]](https://www.arxiv.org/abs/2510.05251)    *University of Chicago、Meta*  
+   > 在本文中，作者提出了一种更简单且更有效的策略——探索性退火解码（Exploratory Annealed Decoding, EAD）。该方法基于一个核心洞察：
+     在序列生成过程中，早期 token 对整个序列的语义方向最关键，因此探索性在早期更有价值。
+     EAD 采用了“先探索、后利用（explore-at-the-beginning, exploit-at-the-end）”的动态温度策略——从较高温度逐步退火到较低温度。  
+
 8. **KDRL: Post-Training Reasoning LLMs via Unified Knowledge Distillation and Reinforcement Learning.** <2025.06>  
     *Hongling Xu, Qi Zhu, Heyuan Deng, Jinpeng Li, Lu Hou.*, **arXiv**  
    [[Paper]](https://arxiv.org/pdf/2506.02208v1)
