@@ -54,8 +54,12 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
 2. **Language Models Can Learn from Verbal Feedback Without Scalar Rewards.**   <2025.09> 👉【改进 RLVR 范式】     
     *Renjie Luo, Zichen Liu, Xiangyan Liu, Chao Du, Min Lin, Wenhu Chen, Wei Lu, Tianyu Pang.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2509.22638)
+
+3. **Entropy After ⟨/𝚃𝚑𝚒𝚗𝚔⟩ for reasoning model early exiting.**   <2025.09> 👉【高效推理】     
+    *Xi Wang, James McInerney, Lequn Wang, Nathan Kallus.*    **arXiv**   
+    [[Paper]](https://arxiv.org/abs/2509.26522)
     
-3. **Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06>    
+4. **Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06>    
     *Shenghua He, Tian Xia, Xuan Zhou, Hui Wei.*  **arXiv**   
     [[Paper]](https://www.arxiv.org/abs/2506.02553)
    
