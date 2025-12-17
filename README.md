@@ -47,22 +47,22 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
 
 <h4>2025</h4>
 
-1. **Optimizing Anytime Reasoning via Budget Relative Policy Optimization.**   <2025.06> 👉【高效推理】     
+1. 👉【高效推理】**Optimizing Anytime Reasoning via Budget Relative Policy Optimization.**   <2025.06>      
     *Penghui Qi, Zichen Liu, Tianyu Pang, Chao Du, Wee Sun Lee, Min Lin.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2505.13438)
     > 在这项工作中，我们提出了一个新框架 AnytimeReasoner，用于优化“随时推理”（anytime reasoning）性能，目标是在不同 token 预算约束下提高 token 效率和推理灵活性。为此，我们从一个先验分布中采样 token 预算，并将完整的思维过程截断到这些预算长度，迫使模型为每段截断的思维生成可验证的最佳答案，以此引入可验证的密集奖励，从而在强化学习优化中实现更有效的信用分配。
    
-2. **Language Models Can Learn from Verbal Feedback Without Scalar Rewards.**   <2025.09> 👉【改进 RLVR 范式】     
+2. 👉【改进 RLVR 范式】**Language Models Can Learn from Verbal Feedback Without Scalar Rewards.**   <2025.09>      
     *Renjie Luo, Zichen Liu, Xiangyan Liu, Chao Du, Min Lin, Wenhu Chen, Wei Lu, Tianyu Pang.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2509.22638)
     > 我们提出将口头反馈视为一种条件信号，而不是压缩为单一的数值奖励。
 
-3. **Entropy After ⟨`/Think`⟩ for reasoning model early exiting.**   <2025.09> 👉【高效推理】     
+3. 👉【高效推理】**Entropy After ⟨`/Think`⟩ for reasoning model early exiting.**   <2025.09>      
     *Xi Wang, James McInerney, Lequn Wang, Nathan Kallus.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2509.26522)
     > 为检测并防止过度思考，我们提出了一种简单且廉价的信号 —— “</Think> 之后的熵（Entropy After </Think>, EAT）” —— 用于监控并决定是否提前退出推理。
     
-4. **Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06> 👉【RLVR 原理】     
+4. 👉【RLVR 原理】**Response-Level Rewards Are All You Need for Online Reinforcement Learning in LLMs: A Mathematical Perspective.**  <2025.06>      
     *Shenghua He, Tian Xia, Xuan Zhou, Hui Wei.*  **arXiv**   
     [[Paper]](https://www.arxiv.org/abs/2506.02553)
    > 在本文中，我们提出了统一的理论视角，我们引入了**轨迹策略梯度定理（Trajectory Policy Gradient Theorem）**，表明无论零奖励假设是否成立，在 REINFORCE 和 Actor-Critic 一类算法中，只用 整条回应的最终奖励（response-level reward） 就可以对真实、未知的 token-级奖励进行无偏估计。
