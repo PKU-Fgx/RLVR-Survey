@@ -66,7 +66,12 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
     *Shenghua He, Tian Xia, Xuan Zhou, Hui Wei.*  **arXiv**   
     [[Paper]](https://www.arxiv.org/abs/2506.02553)
    > 在本文中，我们提出了统一的理论视角，我们引入了**轨迹策略梯度定理（Trajectory Policy Gradient Theorem）**，表明无论零奖励假设是否成立，在 REINFORCE 和 Actor-Critic 一类算法中，只用 整条回应的最终奖励（response-level reward） 就可以对真实、未知的 token-级奖励进行无偏估计。
-   
+
+5. 👉【数据高效】**Towards High Data Efficiency in Reinforcement Learning with Verifiable Reward.**  <2025.09>      
+    *人大、阿里蚂蚁*  **arXiv**   
+    [[Paper]](https://www.arxiv.org/abs/2509.01321)
+   > 近期的大型推理模型研究利用带可验证奖励的强化学习（RLVR）来提升模型的推理能力。然而，这类方法要做到大规模训练通常需要大量的 rollout 计算以及巨大的数据集，从而导致训练成本高、数据效率低。为了解决这个问题，本论文提出了 DEPO（Data-Efficient Policy Optimization） —— 一种数据高效的策略优化管道，它结合了离线和在线数据选择的优化策略。
+
 6. 👉【改进 RLVR 范式】**Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts.** <2025.06>   
    *Haizhong Zheng, Yang Zhou, Brian R. Bartoldson, Bhavya Kailkhura, Fan Lai, Jiawei Zhao, Beidi Chen.* **arXiv**  
    [[Paper]](https://www.arxiv.org/abs/2506.02177) [[Code]](https://github.com/Infini-AI-Lab/GRESO/)
