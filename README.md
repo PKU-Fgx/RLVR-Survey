@@ -57,7 +57,7 @@ RLVR 是一种快速发展的范式，通过外部奖励验证、自洽性和自
     [[Paper]](https://arxiv.org/abs/2509.22638)
     > 我们提出将口头反馈视为一种条件信号，而不是压缩为单一的数值奖励。
 
-3. **Entropy After ⟨/𝚃𝚑𝚒𝚗𝚔⟩ for reasoning model early exiting.**   <2025.09> 👉【高效推理】     
+3. **Entropy After ⟨`/Think`⟩ for reasoning model early exiting.**   <2025.09> 👉【高效推理】     
     *Xi Wang, James McInerney, Lequn Wang, Nathan Kallus.*    **arXiv**   
     [[Paper]](https://arxiv.org/abs/2509.26522)
     > 为检测并防止过度思考，我们提出了一种简单且廉价的信号 —— “</Think> 之后的熵（Entropy After </Think>, EAT）” —— 用于监控并决定是否提前退出推理。
