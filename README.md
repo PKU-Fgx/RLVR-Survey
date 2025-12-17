@@ -11,7 +11,7 @@
 > 受基础模型在对齐、推理与自我改进三者交叉领域的启发。 
 
 <details>
-  <summary>🗂️ Table of Contents</summary>
+  <summary>🗂️ 目录 </summary>
   <ol>
     <li><a href="#motivation">🌟 Motivation</a></li>
     <li><a href="#auto-fetched-recent-papers">🔄 Auto-Fetched Recent Papers</a></li>
